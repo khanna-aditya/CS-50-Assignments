@@ -1,0 +1,4 @@
+Added new sounds. Selection sound is actually coin pickup
+If you press an invalid button, a sound (hurt sound) plays
+Fixed an issue where the the computer was calulating side stupidly. Changed to the AI finding distance between itself and ball.
+Fixed issue in CVC where computer wasn't serving properly
