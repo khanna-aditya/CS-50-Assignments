@@ -1,0 +1,8 @@
+Randomisation Update:
+
+1. Changed the pipe gap to random by changing the init function
+2. made sure that the pipes don't disappear below the ground, by a min condition.
+3. major flaw you can fly really high and win
+4. The game shows display of : spawning time gap, the x-gap between two pipes, gap length of pipe pair 
+    The gap length is not the one taken in while spawning but rather the actual gap length
+5. Everytime a new pipe is created, the extraTime is set for the next pair. Thus, we change the timer to affect the x-coord
