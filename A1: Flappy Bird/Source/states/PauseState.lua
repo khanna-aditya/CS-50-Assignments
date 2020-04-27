@@ -29,6 +29,7 @@ function PauseState:enter(params)
     self.pipePairs = params.pipePairs
     self.score = params.score
     self.timer = params.timer
+    sounds['pause']:play()
 
 end
 
